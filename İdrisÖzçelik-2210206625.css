@@ -1,0 +1,65 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background: linear-gradient(135deg, #a1c4fd, #c2e9fb);
+}
+
+.cv{
+    width: 600px;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+    border: 3px solid #81d4fa;
+}
+
+.profile-foto{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 30px;
+    border: 5 px solid #00bcd4;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+h1, h2{
+    text-align: center;
+    margin-bottom: 15px;
+    color: #1e88e5;
+    font-family: 'Raleaway', sans-serif;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+p{
+    color: #444;
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+.communication{
+    text-align: center;
+    color: #666;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.contact-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.contact-icon {
+    width: 16px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+
+
